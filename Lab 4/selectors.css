@@ -1,0 +1,67 @@
+body{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	background: #bdc3c7;
+ }
+
+h1{
+    color:  #9b59b6;
+}	
+
+h2{
+    color: orange;
+}
+
+li{
+
+    color: blue;
+}
+
+p{
+    background-color: yellow;
+}
+
+input{
+    border: 3px solid red;
+}
+
+.hello{
+    background-color: white;
+}
+
+#special{
+
+    background-color: blue;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+div p{
+    font-size: 25px;
+}
+
+div:nth-of-type(3) p{
+    background-color: pink;
+
+}
+div:nth-of-type(3) em{
+    color: white;
+    font-size: 25px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+#special{
+
+}
+
+h1:hover{
+    background-color: blue;
+    text-orientation: sideways;
+    text-shadow: 5px;
+    color: white;
+    font-size: 50px;
+}
